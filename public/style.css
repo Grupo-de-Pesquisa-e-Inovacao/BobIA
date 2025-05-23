@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #63B1BC;
+    font-family: 'Poppins', serif;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +14,7 @@ body {
 }
 
 h1 {
-    color: #1F2A44;
+    color: #f7e96b;
 }
 
 textarea[type="text"] {
@@ -20,6 +22,7 @@ textarea[type="text"] {
     font-size: 16px;
     border-radius: 5px;
     width: 400px;
+    font-family: 'Poppins', serif;
 }
 
 select,
@@ -31,21 +34,38 @@ button {
 }
 
 button {
-    background-color: #ED145B;
-    color: #FFFFFF;
+    background-color: #f7e96b;
+    color: black;
     border: none;
 }
 
 button:hover {
-    background-color: #EFB661;
+    background-color: #646464;
+    color: white;
 }
 
 #resposta {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #D0D3D4;
+    background-color: #ffffff;
     border: 1px solid #63666A;
     text-align: left;
     display: none;
+    font-family: 'Poppins', serif;
+}
+
+h3 {
+    color:#f7e96b;
+}
+
+.logotipo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 200px;
+   
 }
